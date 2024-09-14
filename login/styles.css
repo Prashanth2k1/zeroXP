@@ -1,0 +1,82 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo-image {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.login-form input, 
+.login-form select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #190483;
+}
+ 
+h2{
+
+    align-items: start;
+}
+p {
+    margin-top: 15px;
+}
+
+p a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.login-form select {
+    margin-top: 15px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}

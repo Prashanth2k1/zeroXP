@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Reg'n</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Add the image logo here -->
+    <img src="images/logo.png" alt="ZeroXP Logo" class="logo-image">
+    <br>
+    <div class="login-container">
+        <h2>Recruiter Registration</h2>
+        <form action="/login" method="POST" class="login-form">
+
+            <label for="fullName">Organization</label>
+            <input type="text" id="fullName" name="fullName" required placeholder="John Snow">
+
+            <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="alice@xyz">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="xxxxxx">
+
+            <!-- <label for="id">Recruiter ID:</label>
+            <input type="var" id="id" name="Recruiter id" placeholder="ABC37493" required> -->
+            
+            <!-- <label for="updates">
+                <input type="checkbox" id="updates" name="updates">
+                Send me important updates via  <img src="images/wapp.png" alt="WhatsApp" class="whatsapp-icon">
+             </label>
+         -->
+            
+            <button type="submit" class="login-btn">Register Now</button>
+            
+            <!-- <p>Don't have an account? <a href="/signup">Sign Up</a></p> -->
+        </form>
+    </div>
+</body>
+</html>
